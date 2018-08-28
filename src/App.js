@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import logo from './assets/genome_cards_invert.png';
+import logoNormal from './assets/genome_cards_300.png';
 import Home from './components/Home';
 import { Button, Modal } from 'react-bootstrap';
 import './App.css';
@@ -36,6 +37,9 @@ class App extends Component {
             <Modal.Title>Welcome to Genome Cards</Modal.Title>
           </Modal.Header>
           <Modal.Body>
+            <div className="centered">
+              <img src={logoNormal}/>
+            </div>
             <div className="login-modal centered">
               <Button className="login-button centered" bsStyle="success" onClick={this.handleClose}>Continue with Genome</Button>
             </div>

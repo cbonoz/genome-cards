@@ -18,12 +18,7 @@ const styles = {
 
 class Home extends Component {
     
-    componentWillMount() {
-        console.log('scopes', SCOPES)
-    }
-    
     render() {
-        
         return (
             <div className="home-content">
                 <StackGrid columnWidth={300}>

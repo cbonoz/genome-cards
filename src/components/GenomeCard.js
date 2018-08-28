@@ -67,13 +67,10 @@ class GenomeCard extends Component {
                         onClick={this.handleClick}
                     >
                         <h3 className="centered card-header">{formattedName}</h3>
+                            {/* // src="//www.planwallpaper.com/static/images/02_GpKGIi8.jpg" */}
                         <img
                             style={this.props.styles.image}
-                            // src="//www.planwallpaper.com/static/images/02_GpKGIi8.jpg"
-                            // src="https://cdn.iconscout.com/icon/premium/png-256-thumb/dna-connection-genetic-genome-helix-strand-structure-41851.png"
                             src="https://www.mendelian.co/img/gene.png"
-                            // src="https://cdn.pixabay.com/photo/2017/05/16/02/07/dna-icon-2316641_1280.png"
-                            // width={"100"}
                         />
 
                     </div>
@@ -94,7 +91,7 @@ class GenomeCard extends Component {
                             </div>
                         </div>}
                         <br />
-                        <button bsStyle="danger" onClick={this.handleClick}>
+                        <button onClick={this.handleClick}>
                             Flip Back
                     </button>
                     </div>
@@ -104,7 +101,7 @@ class GenomeCard extends Component {
                         <Modal.Title>Your Genome Report: {formattedName}</Modal.Title>
                     </Modal.Header>
                     <Modal.Body>
-                        <p><b>Your Genome: {report.summary.score}</b></p>
+                        <p><b>Your Genome Score: {report.summary.score}</b></p>
 
                         <hh4/>
                         <p>Score Definitions:</p>
