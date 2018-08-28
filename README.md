@@ -5,9 +5,25 @@
 Genome Cards
 ---
 
+
 Uncover facts about your Genome in a friendly format!
 
 Genome Cards helps users Play to their Strengths by uncovering facts that can help them better understand their personal traits.
+
+Running the project
+---
+Start the ReactJS web app 
+<pre>
+  yarn && yarn start
+</pre>
+Start the python server (after installing dependencies):
+<pre>
+  python server.py
+</pre>
+
+The server will forward web app genome API requests through the server on behalf of the user.
+
+That's it.
 
 Inspiration
 ----
