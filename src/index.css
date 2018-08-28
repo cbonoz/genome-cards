@@ -12,6 +12,15 @@ body {
 .red {
   color: red;
 }
+.login-modal {
+  height: 150px;
+}
+
+.login-button {
+  font-size: 24px;
+  margin-top: 50px;
+  text-align: center;
+}
 
 .cursor {
   cursor: pointer;
