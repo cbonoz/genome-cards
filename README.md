@@ -1,19 +1,18 @@
+<p align="center">
+  <img src="./screenshots/genome_cards_300.png"/>
+</p>
 
 Genome Cards
 ---
 
-Uncover facts about you in a card format!
+Uncover facts about your Genome in a friendly format!
 
-Acumos Property Assistant
----
-
-Genome Cards is a fun and simple-to-use React app for uncovering truths about your genome that will help you play to your strengths.
+Genome Cards helps users Play to their Strengths by uncovering facts that can help them better understand their personal traits.
 
 Inspiration
 ----
 
-The Genome is 
-
+The Genome is still poorly understood by the vast majority of people. I wanted to create a simple application that would make facts about their personal genome's more accessible and fun - thus genome cards was born.
 
 
 What it does
@@ -39,5 +38,5 @@ How to create an app that can pull in information about the user's genome in a f
 What's next for Genome Cards?
 ----
 
-Genome cards is an open source project that could be extended for other applications.
+Genome cards is an open source project that could be extended for other applications. The cards could be gamified, and learning about the genome and help individual's maximize their life effectiveness based on their personal traits.
 
