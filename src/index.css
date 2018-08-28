@@ -9,8 +9,18 @@ body {
   text-align: center;
 }
 
+.red {
+  color: red;
+}
+
 .cursor {
   cursor: pointer;
+}
+
+.card-header {
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid lightblue;
 }
 
 .home-content {
