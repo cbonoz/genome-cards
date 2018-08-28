@@ -1,5 +1,7 @@
 const library = (function () {
 
+    const GENOME_USER = "GENOMELINKTEST001"
+
     const SCOPES = [
         "report:agreeableness",
         "report:anger",
@@ -38,7 +40,8 @@ const library = (function () {
     ]
 
     return {
-        SCOPES
+        SCOPES,
+        GENOME_USER
     }
 
 })();

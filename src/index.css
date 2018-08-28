@@ -9,6 +9,10 @@ body {
   text-align: center;
 }
 
+.cursor {
+  cursor: pointer;
+}
+
 .home-content {
   max-width: 1300px;
   margin: 0 auto;
